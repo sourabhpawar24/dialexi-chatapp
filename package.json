@@ -1,0 +1,26 @@
+{
+  "name": "24may",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch backend-chatapp/index.js",
+    "start": "node backend-chatapp/index.js",
+    "dev:frontend": "npm --prefix frontend-chatapp run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.7.0",
+    "mongoose": "^9.11.2",
+    "socket.io": "^4.8.4"
+  }
+}

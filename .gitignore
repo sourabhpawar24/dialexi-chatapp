@@ -1,0 +1,7 @@
+node_modules/
+frontend-chatapp/node_modules/
+frontend-chatapp/dist/
+.env
+.env.*
+!.env.example
+!frontend-chatapp/.env.example
